@@ -23,8 +23,8 @@ import net.rubyeye.xmemcached.auth.AuthInfo;
 import net.rubyeye.xmemcached.command.BinaryCommandFactory;
 import net.rubyeye.xmemcached.impl.KetamaMemcachedSessionLocator;
 import net.rubyeye.xmemcached.utils.AddrUtil;
-import org.nervousync.cache.annotation.CacheProviderImpl;
-import org.nervousync.cache.provider.impl.AbstractCacheProvider;
+import org.nervousync.cache.annotation.CacheProvider;
+import org.nervousync.cache.provider.impl.AbstractProvider;
 import org.nervousync.commons.beans.xml.cache.CacheServer;
 import org.nervousync.commons.core.Globals;
 
@@ -35,8 +35,8 @@ import java.util.List;
  * @author Steven Wee	<a href="mailto:wmkm0113@Hotmail.com">wmkm0113@Hotmail.com</a>
  * @version $Revision: 1.0 $ $Date: 12/23/2020 13:43 PM $
  */
-@CacheProviderImpl(name = "XMemcachedProvider", defaultPort = 11211)
-public class XMemcachedProviderImpl extends AbstractCacheProvider {
+@CacheProvider(name = "XMemcachedProvider", defaultPort = 11211)
+public class XMemcachedProviderImpl extends AbstractProvider {
 
 	/**
 	 * Memcached client object
