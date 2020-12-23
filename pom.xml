@@ -5,7 +5,7 @@
     <artifactId>cache-xmemcached</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>Pure Java Utils</name>
+    <name>Cache provider implement by xmemcached</name>
     <url>https://nervousync.org/project/cache/xmemcached</url>
     <description>Java Utils collections, development by Nervousync Studio (NSYC)</description>
     <issueManagement>
