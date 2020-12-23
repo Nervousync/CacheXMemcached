@@ -7,7 +7,7 @@
     <packaging>jar</packaging>
     <name>Cache provider implement by xmemcached</name>
     <url>https://nervousync.org/project/cache/xmemcached</url>
-    <description>Java Utils collections, development by Nervousync Studio (NSYC)</description>
+    <description>Cache provider implement by xmemcached, development by Nervousync Studio (NSYC)</description>
     <issueManagement>
         <url>https://github.com/Nervousync/CacheXMemcached/issues</url>
         <system>Github Issues</system>
